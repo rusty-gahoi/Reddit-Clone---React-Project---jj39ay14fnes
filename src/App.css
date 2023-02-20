@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --border-radius: 3px;
+  --primary-color: rgb(39, 153, 239);
+  --light-grey: rgb(245, 245, 245);
+}
+
+body {
+  background-color: #dae0e6;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+}
+/* On screens that are 992px or less, set the background color to blue */
+/*@media screen and (max-width: 745px) {
+  body {
+    background-color: blue;
+  }
+}*/
